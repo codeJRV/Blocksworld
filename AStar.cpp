@@ -17,6 +17,7 @@ bool AStar::AStarSearch(Node *start,int heuristic, int itr_max) {
 
     int itr  = 1 ;
     int frnt = 1 ;
+    int goal_test = 0;
     frontier.push(start);
 
     while(!frontier.empty())
@@ -41,11 +42,12 @@ bool AStar::AStarSearch(Node *start,int heuristic, int itr_max) {
             cout<<"\nSize of queue           : "<<frontier.size()<<"\n";
             cout<<"\nNumber of Iterations    : "<<itr<<"\n";
             cout<<"\nNumber of Nodes         : "<<nodeList.size()<<"\n";
+            cout<<"\nNumber of Goal Tests    : "<<goal_test<<"\n";
 
             return true;
         }
         else
-        {
+        {   goal_test ++;
             ++itr;
 
             if(itr == itr_max ) {
@@ -78,7 +80,7 @@ bool AStar::AStarSearch(Node *start,int heuristic, int itr_max) {
                     }
                     else
                     {
-                        //update f,h,g values if it has a worse g than existing
+                        //update f,h,g values if it has a worse f than existing
                         if(successors[i]->g > bestOption->g +1)
                         {
                             successors[i]->parent = bestOption;
@@ -91,6 +93,7 @@ bool AStar::AStarSearch(Node *start,int heuristic, int itr_max) {
                             {   temp.push_back(frontier.top());
                                 frontier.pop();
                             }
+
                             for(int j=0; j<temp.size(); j++)
                                 frontier.push(temp[j]);
 

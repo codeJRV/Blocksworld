@@ -55,7 +55,7 @@ int main() {
 //
 //    //Create a world of 5 blocks on 3 stacks
 //
-
+/*
   stack.push_back('B');
   block.push_back(stack);
   stack.clear();
@@ -73,7 +73,7 @@ int main() {
     n_blocks = 5;
     n_stacks = 3;
 
-
+*/
 
     /////////////////////////////////////////////////////////////////////
 
@@ -84,8 +84,10 @@ int main() {
     n_blocks = 10;
     n_stacks = 5;
 
-    stack.push_back('A');
+    stack.push_back('F');
+    stack.push_back('H');
     stack.push_back('D');
+    stack.push_back('A');
     stack.push_back('G');
     block.push_back(stack);
     stack.clear();
@@ -97,8 +99,6 @@ int main() {
     block.push_back(stack);
     stack.clear();
 
-    stack.push_back('F');
-    stack.push_back('H');
     stack.push_back('C');
     stack.push_back('B');
     block.push_back(stack);
@@ -108,13 +108,52 @@ int main() {
     stack.push_back('E');
     block.push_back(stack);
     stack.clear();
-*/
+
+    */
+
     /////////////////////////////////////////////////////////////////////
+
+
+
+    ///////////////////////////////////////////////////////////////////////
+
+    //Create a world of 5 blocks on 3 stacks
+
+ /*   n_blocks = 10;
+    n_stacks = 3;
+
+    stack.push_back('F');
+    stack.push_back('H');
+    stack.push_back('D');
+    stack.push_back('A');
+    stack.push_back('G');
+    block.push_back(stack);
+    stack.clear();
+
+    stack.push_back('I');
+    block.push_back(stack);
+    stack.clear();
+
+    stack.push_back('C');
+    stack.push_back('B');
+    stack.push_back('J');
+    stack.push_back('E');
+    block.push_back(stack);
+    stack.clear();
+
+*/
+
+    /////////////////////////////////////////////////////////////////////
+
+
+
+    n_blocks = 10;
+    n_stacks = 3;
 
     Node *start = new Node( n_blocks, n_stacks );
     start->block = block;
 
-    //start->RandomPuzzle(95);
+   start->RandomPuzzle(500);
 
     start->PrintNode();
 
@@ -140,10 +179,10 @@ int main() {
     //  int p = SearchTree.Exists(test);
     //  cout<<"node exists at "<<p<<" ";
     //
-    //-----------------------------------------
+    //----------------------------------------
 
     AStar Searcher;
-    Searcher.AStarSearch(start,6);
+    Searcher.AStarSearch(start,8);
 
 
     return 0;
