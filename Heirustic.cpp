@@ -117,7 +117,7 @@ float Heirustic::ComputeH(Node *N,int h_number) {
 
 
                 }
-            }
+            } 
 
 
             break;
