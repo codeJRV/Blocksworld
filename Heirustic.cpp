@@ -226,7 +226,7 @@ float Heirustic::ComputeH(Node *N,int h_number) {
 
     }
 
-    if( h_number == 8)
+    if( h_number == 8)                                                                          //Finally something that works!
     {
         for(int i = 0; i < N->n_stacks; i++)
         {
@@ -240,8 +240,16 @@ float Heirustic::ComputeH(Node *N,int h_number) {
                     else {
                         float k = j +1 ;
                         float scaling_factor = 1.00;
-                        if((float)N->block[i].size() != k )
-                            scaling_factor =  (float)N->block[i].size()/((float)N->block[i].size() - k );
+                        //if((float)N->block[i].size() != k )
+                        //    scaling_factor =  (float)N->block[i].size()/((float)N->block[i].size() - k );
+
+
+                        if(0 != k )
+                            scaling_factor =  (float)N->block[i].size()/k;
+                        else
+                            scaling_factor = 2*(float)N->block[i].size();
+
+
                         //cout<<endl<<"sf: "<<scaling_factor<<endl;
 
                         if(N->n_stacks >3)

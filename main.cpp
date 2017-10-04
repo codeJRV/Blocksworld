@@ -143,12 +143,60 @@ int main() {
 
 */
 
+/*
+    ===== ( 20 blocks on 5 stacks ) =====
+    0 | H S D F Q I L
+    1 | N O E J K A
+    2 | R B P G T
+    3 |
+    4 | M C
+
+*/
+
+/*
+
+    stack.push_back('H');
+    stack.push_back('S');
+    stack.push_back('D');
+    stack.push_back('F');
+    stack.push_back('Q');
+    stack.push_back('I');
+    stack.push_back('L');
+    block.push_back(stack);
+    stack.clear();
+
+    stack.push_back('N');
+    stack.push_back('O');
+    stack.push_back('E');
+    stack.push_back('J');
+    stack.push_back('K');
+    stack.push_back('A');
+    block.push_back(stack);
+    stack.clear();
+
+    stack.push_back('R');
+    stack.push_back('B');
+    stack.push_back('P');
+    stack.push_back('G');
+    stack.push_back('T');
+    block.push_back(stack);
+    stack.clear();
+
+
+    block.push_back(stack);
+    stack.clear();
+
+    stack.push_back('M');
+    stack.push_back('C');
+    block.push_back(stack);
+    stack.clear();
+    */
     /////////////////////////////////////////////////////////////////////
 
 
 
     n_blocks = 10;
-    n_stacks = 3;
+    n_stacks = 5;
 
     Node *start = new Node( n_blocks, n_stacks );
     start->block = block;

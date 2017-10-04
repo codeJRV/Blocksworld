@@ -122,7 +122,7 @@ void AStar::PrintPath(Node* n ) {
         myNode = myNode->parent;
     }
 
-    int depth = path.size()-1;
+    int depth = (int)path.size()-1;
 
     cout<<"\nStarting : \n";
     while(!path.empty())
