@@ -1,0 +1,102 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.cpp
+AStar.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.h
+
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.h
+Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+Tree.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.h
+Heirustic.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.h
+queue
+-
+
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.cpp
+Heirustic.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.h
+
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.h
+Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.cpp
+Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+vector
+-
+random
+-
+iostream
+-
+time.h
+-
+
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.cpp
+Tree.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.h
+Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.h
+vector
+-
+iostream
+-
+Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/main.cpp
+iostream
+-
+fstream
+-
+string.h
+-
+stdlib.h
+-
+stdio.h
+-
+vector
+-
+sstream
+-
+iterator
+-
+climits
+-
+list
+-
+queue
+-
+stack
+-
+algorithm
+-
+map
+-
+string
+-
+math.h
+-
+time.h
+-
+map
+-
+Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+Tree.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.h
+AStar.h
+/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.h
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/FirstProject.dir/main.cpp.o CMakeFiles/FirstProject.dir/Node.cpp.o CMakeFiles/FirstProject.dir/Tree.cpp.o CMakeFiles/FirstProject.dir/AStar.cpp.o CMakeFiles/FirstProject.dir/Heirustic.cpp.o  -o FirstProject 

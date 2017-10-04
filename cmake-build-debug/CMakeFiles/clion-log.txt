@@ -1,0 +1,4 @@
+/home/jrv/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug
