@@ -16,7 +16,7 @@ Node::Node(int b, int s)
     g = 0.0;
     h = 0.0;
     f = 0.0;
-    visited = false;
+
 
     vector<vector<char> > block;
     vector<char> stack;
@@ -42,7 +42,7 @@ void Node::PrintNode() {
             cout << endl;
         }
 
-        cout << "===== ( f = " << f << ", g = " << g << ", h = " << h << " ) =====";
+        cout << "===== ( f = " << f << ", g = " << g << ", h = " << h << " ) =====\n";
     }
     else
     {
@@ -53,13 +53,7 @@ void Node::PrintNode() {
 
 void Node::RandomPuzzle( int n_moves , bool beVerbose)
 {
-
-
-    cout<<"\ngenerating random Puzzle\n";
     block.clear();
-    //PrintNode();
-
-
     vector<char> stack;
 
 
@@ -71,7 +65,6 @@ void Node::RandomPuzzle( int n_moves , bool beVerbose)
         stack.clear();
     }
 
-    //PrintNode();
     srand (time(NULL));
 
     while (n_moves)
@@ -92,7 +85,7 @@ void Node::RandomPuzzle( int n_moves , bool beVerbose)
     }
 
 
-    cout<<"\nrandom Node is :\n";
+    cout<<"\nRandom Node is :\n";
     PrintNode();
 
 }
@@ -112,7 +105,28 @@ bool Node::IsGoal()
     return  true;
 }
 
+bool Node::IsProper()
+{
+    vector <int> all_blocks;
 
+    for (int i = 0; i < n_stacks; i++)
+        for (int j = 0; j < block[i].size(); j++)
+            all_blocks.push_back((int) block[i][j] - 65);
+
+    std::sort(all_blocks.begin(), all_blocks.end());
+
+    int p = 0;
+    while(all_blocks[p+1])
+    {
+        if((all_blocks[p] +1 )!= all_blocks[p+1])
+            return false;
+
+        p++;
+    }
+
+    return true;
+
+}
 
 void Node::ClearNode()
 {

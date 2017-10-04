@@ -8,7 +8,7 @@ float Heirustic::ComputeH(Node *N,int h_number) {
 
     float penality = 0.0;
 
-    if(h_number == 1)
+    if(h_number == 0)
     {
 
         for (int i = 0; i < N->n_stacks; i++) {
@@ -24,6 +24,9 @@ float Heirustic::ComputeH(Node *N,int h_number) {
 
     }
 
+
+    /////////////////////////////////////////////////////////////////////////////////////////// LIST OF WORSE ATTEMPTS
+    /*
     if(h_number == 2)
     {
         //lets check for adjacency in stacking and position
@@ -158,7 +161,7 @@ float Heirustic::ComputeH(Node *N,int h_number) {
 
     }
 
-    if( h_number == 7)
+    if( h_number == 6)
     {
         int n_stacks = N->n_stacks;
         int n_blocks = N->n_blocks; //total blocks
@@ -226,7 +229,10 @@ float Heirustic::ComputeH(Node *N,int h_number) {
 
     }
 
-    if( h_number == 8)                                                                          //Finally something that works!
+     */
+    /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    if( h_number == 1)   //Finally something that works!
     {
         for(int i = 0; i < N->n_stacks; i++)
         {
@@ -279,11 +285,6 @@ float Heirustic::ComputeH(Node *N,int h_number) {
 
             }
         }
-
-
-
-
-
 
     }
 

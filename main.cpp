@@ -9,52 +9,113 @@
 
 #include <iostream>
 #include <fstream>
-#include <string.h>
-#include <stdlib.h>
-#include <stdio.h>
 #include <vector>
 #include <sstream>
 #include <iterator>
-#include <climits>
 #include <list>
 #include <queue>
 #include <stack>
 #include <algorithm>
-#include <map>
-#include <string>
-#include <math.h>
-#include <time.h>
 #include <map>
 
 #include "Node.h"
 #include "Tree.h"
 #include "AStar.h"
 
+using namespace std;
 
 vector<Node*> nodeList;
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+int main(int argc, char** argv) {
 
-    int n_blocks, n_stacks;
+    cout << "Blocks World!" << std::endl;
 
-    cout<<"Number of Blocks : ";
-    //cin>>n_blocks;
-    cout<<"Number of Stacks : ";
-    //cin>>n_stacks;
+    int n_blocks = 0;
+    int n_stacks = 0;
 
 
     vector<vector<char> > block;
     vector<char> stack;
 
-    ///////////////////////////////////////////////////////////////////////
-//
-//    vector<vector<char> > block;
-//    vector<char> stack;
-//
-//
-//    //Create a world of 5 blocks on 3 stacks
-//
+    if(argc != 3)
+    {
+
+        int heuristic = 0;
+
+        cout << "Number of Blocks : ";
+        cin>>n_blocks;
+        cout << "Number of Stacks : ";
+        cin>>n_stacks;
+        cout << "Heuristic (0/1)  : ";
+        cin>>heuristic;
+
+        if(n_stacks == 1 || n_blocks == 0)
+        {
+            cout<<"Impossible to solve this problem ( try giving more stacks or blocks ) ";
+            return 0;
+
+        }
+
+        cout<<"\nGenerating a random puzzle of "<<n_blocks<<" on "<<n_stacks<<" stacks\n";
+        Node *start = new Node( n_blocks, n_stacks );
+        start->block = block;
+        start->RandomPuzzle(500);
+
+        AStar Searcher;
+
+        if(heuristic==1)
+        Searcher.AStarSearch(start,1);
+        else
+        Searcher.AStarSearch(start,0);
+
+    }
+    else
+    {
+
+        const std::string heuristic = argv[1];
+
+        const std::string blocksworld = argv[2];
+
+        int i = 0;
+        while (blocksworld[i])
+        {
+
+            if(blocksworld[i] != '.')
+            {
+                stack.push_back(blocksworld[i]);
+                n_blocks++;
+            }
+
+            else
+            {
+                n_stacks++;
+                block.push_back(stack);
+                stack.clear();
+            }
+
+            i++;
+
+        }
+
+        Node *start = new Node( n_blocks, n_stacks );
+        start->block = block;
+
+        if(!start->IsProper())
+        {
+            cout<<" Incorrect input configuration, the problem cannot be solved";
+            return 0;
+        }
+
+        AStar Searcher;
+
+        if(heuristic == "1")
+            Searcher.AStarSearch(start,1);
+        else
+            Searcher.AStarSearch(start,0);
+    }
+
+
+////////// SOME SAMPLE CASES FOR TESTING WERE USED AS FOLLOWS
 /*
   stack.push_back('B');
   block.push_back(stack);
@@ -75,11 +136,7 @@ int main() {
 
 */
 
-    /////////////////////////////////////////////////////////////////////
-
-    ///////////////////////////////////////////////////////////////////////
-
-    //Create a world of 5 blocks on 3 stacks
+/////////////////////////////////////////////////////////////////////
 /*
     n_blocks = 10;
     n_stacks = 5;
@@ -111,14 +168,7 @@ int main() {
 
     */
 
-    /////////////////////////////////////////////////////////////////////
-
-
-
-    ///////////////////////////////////////////////////////////////////////
-
-    //Create a world of 5 blocks on 3 stacks
-
+ /////////////////////////////////////////////////////////////////////
  /*   n_blocks = 10;
     n_stacks = 3;
 
@@ -150,10 +200,6 @@ int main() {
     2 | R B P G T
     3 |
     4 | M C
-
-*/
-
-/*
 
     stack.push_back('H');
     stack.push_back('S');
@@ -191,48 +237,8 @@ int main() {
     block.push_back(stack);
     stack.clear();
     */
-    /////////////////////////////////////////////////////////////////////
 
-
-
-    n_blocks = 10;
-    n_stacks = 5;
-
-    Node *start = new Node( n_blocks, n_stacks );
-    start->block = block;
-
-   start->RandomPuzzle(500);
-
-    start->PrintNode();
-
-    start->visited = true;
-
-    Tree SearchTree;
-
-    vector<Node*> Successors;
-    Successors = SearchTree.GenerateSuccessors(start);
-
-    for(int i = 0; i <nodeList.size(); i++)
-    {
-        Node *n = nodeList[i];
-        n->PrintNode();
-    }
-
-    cout<<endl;
-
-    //-----------------------------------------
-    //
-    //  Node *test = new Node( n_blocks, n_stacks );
-    //  test->RandomPuzzle(15);
-    //  int p = SearchTree.Exists(test);
-    //  cout<<"node exists at "<<p<<" ";
-    //
-    //----------------------------------------
-
-    AStar Searcher;
-    Searcher.AStarSearch(start,8);
-
-
+    ////////////////////////////////////////////////////////////////////
     return 0;
 
 

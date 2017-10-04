@@ -39,7 +39,7 @@ vector<Node*> Tree::GenerateSuccessors(Node* start) {
                             Node *childNode = new Node(start->n_blocks, start->n_stacks);
                             childNode->block = successor->block;
                             childNode->parent = successor->parent;
-                            start->visited = true;//when you generate successors the parent will be already visited
+                            //start->visited = true;//when you generate successors the parent will be already visited
                             //nodeList.push_back(childNode);
                             successorList.push_back(childNode);
                             // cout << "\nNew child Pushed to nodeList\n";

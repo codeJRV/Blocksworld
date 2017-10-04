@@ -41,6 +41,8 @@ iostream
 -
 time.h
 -
+algorithm
+-
 
 /home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.cpp
 Tree.h
@@ -61,19 +63,11 @@ iostream
 -
 fstream
 -
-string.h
--
-stdlib.h
--
-stdio.h
--
 vector
 -
 sstream
 -
 iterator
--
-climits
 -
 list
 -
@@ -82,14 +76,6 @@ queue
 stack
 -
 algorithm
--
-map
--
-string
--
-math.h
--
-time.h
 -
 map
 -

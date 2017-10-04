@@ -9,6 +9,7 @@
 #include <random>
 #include <iostream>
 #include <time.h>
+#include <algorithm>
 
 using namespace std;
 
@@ -20,6 +21,7 @@ public:
     void PrintNode();
     void RandomPuzzle( int n_moves , bool beVerbose = false);
     bool IsGoal();
+    bool IsProper();
     void ClearNode();
 
     vector< vector<char> > block;
@@ -27,7 +29,7 @@ public:
     float g, h,f;
     int n_stacks;
     int n_blocks;
-    bool visited;
+
 
 
 

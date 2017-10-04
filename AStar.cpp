@@ -9,9 +9,12 @@ bool AStar::AStarSearch(Node *start,int heuristic, int itr_max) {
     if (start->IsGoal())
         return true;
 
+    Heirustic myheuristic;
+    Tree SearchTree;
+
     start->g = 0;
-    start->h = 0;
-    start->f = 0;
+    start->h = myheuristic.ComputeH(start,heuristic);
+    start->f = start->g + start->h;
     start->parent = nullptr;
 
 
@@ -58,8 +61,6 @@ bool AStar::AStarSearch(Node *start,int heuristic, int itr_max) {
             }
             else
             {   cout<<itr<<endl;
-                Tree SearchTree;
-                Heirustic myheuristic;
                 vector<Node*> successors;
                 successors = SearchTree.GenerateSuccessors(bestOption);
 
