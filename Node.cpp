@@ -5,6 +5,8 @@
 #include "Node.h"
 
 using namespace std;
+bool compare (int i,int j) { return (i<j); }
+
 
 Node::Node(int b, int s)
 {
@@ -113,7 +115,7 @@ bool Node::IsProper()
         for (int j = 0; j < block[i].size(); j++)
             all_blocks.push_back((int) block[i][j] - 65);
 
-    std::sort(all_blocks.begin(), all_blocks.end());
+    std::sort(all_blocks.begin(), all_blocks.end(), compare);
 
     int p = 0;
     while(all_blocks[p+1])
