@@ -43,10 +43,10 @@ RM = /home/jrv/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld"
+CMAKE_SOURCE_DIR = "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug"
+CMAKE_BINARY_DIR = "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Blocksworld.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Blocksworld.dir/flags.make
 
 CMakeFiles/Blocksworld.dir/main.cpp.o: CMakeFiles/Blocksworld.dir/flags.make
 CMakeFiles/Blocksworld.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Blocksworld.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Blocksworld.dir/main.cpp.o -c "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/main.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Blocksworld.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Blocksworld.dir/main.cpp.o -c "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/main.cpp"
 
 CMakeFiles/Blocksworld.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blocksworld.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/main.cpp" > CMakeFiles/Blocksworld.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/main.cpp" > CMakeFiles/Blocksworld.dir/main.cpp.i
 
 CMakeFiles/Blocksworld.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blocksworld.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/main.cpp" -o CMakeFiles/Blocksworld.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/main.cpp" -o CMakeFiles/Blocksworld.dir/main.cpp.s
 
 CMakeFiles/Blocksworld.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Blocksworld.dir/main.cpp.o.provides.build: CMakeFiles/Blocksworld.dir
 
 CMakeFiles/Blocksworld.dir/Node.cpp.o: CMakeFiles/Blocksworld.dir/flags.make
 CMakeFiles/Blocksworld.dir/Node.cpp.o: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Blocksworld.dir/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Blocksworld.dir/Node.cpp.o -c "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Blocksworld.dir/Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Blocksworld.dir/Node.cpp.o -c "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.cpp"
 
 CMakeFiles/Blocksworld.dir/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blocksworld.dir/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.cpp" > CMakeFiles/Blocksworld.dir/Node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.cpp" > CMakeFiles/Blocksworld.dir/Node.cpp.i
 
 CMakeFiles/Blocksworld.dir/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blocksworld.dir/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.cpp" -o CMakeFiles/Blocksworld.dir/Node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.cpp" -o CMakeFiles/Blocksworld.dir/Node.cpp.s
 
 CMakeFiles/Blocksworld.dir/Node.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/Blocksworld.dir/Node.cpp.o.provides.build: CMakeFiles/Blocksworld.dir
 
 CMakeFiles/Blocksworld.dir/Tree.cpp.o: CMakeFiles/Blocksworld.dir/flags.make
 CMakeFiles/Blocksworld.dir/Tree.cpp.o: ../Tree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Blocksworld.dir/Tree.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Blocksworld.dir/Tree.cpp.o -c "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Blocksworld.dir/Tree.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Blocksworld.dir/Tree.cpp.o -c "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Tree.cpp"
 
 CMakeFiles/Blocksworld.dir/Tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blocksworld.dir/Tree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.cpp" > CMakeFiles/Blocksworld.dir/Tree.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Tree.cpp" > CMakeFiles/Blocksworld.dir/Tree.cpp.i
 
 CMakeFiles/Blocksworld.dir/Tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blocksworld.dir/Tree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.cpp" -o CMakeFiles/Blocksworld.dir/Tree.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Tree.cpp" -o CMakeFiles/Blocksworld.dir/Tree.cpp.s
 
 CMakeFiles/Blocksworld.dir/Tree.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/Blocksworld.dir/Tree.cpp.o.provides.build: CMakeFiles/Blocksworld.dir
 
 CMakeFiles/Blocksworld.dir/AStar.cpp.o: CMakeFiles/Blocksworld.dir/flags.make
 CMakeFiles/Blocksworld.dir/AStar.cpp.o: ../AStar.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Blocksworld.dir/AStar.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Blocksworld.dir/AStar.cpp.o -c "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Blocksworld.dir/AStar.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Blocksworld.dir/AStar.cpp.o -c "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/AStar.cpp"
 
 CMakeFiles/Blocksworld.dir/AStar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blocksworld.dir/AStar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.cpp" > CMakeFiles/Blocksworld.dir/AStar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/AStar.cpp" > CMakeFiles/Blocksworld.dir/AStar.cpp.i
 
 CMakeFiles/Blocksworld.dir/AStar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blocksworld.dir/AStar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.cpp" -o CMakeFiles/Blocksworld.dir/AStar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/AStar.cpp" -o CMakeFiles/Blocksworld.dir/AStar.cpp.s
 
 CMakeFiles/Blocksworld.dir/AStar.cpp.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/Blocksworld.dir/AStar.cpp.o.provides.build: CMakeFiles/Blocksworld.di
 
 CMakeFiles/Blocksworld.dir/Heirustic.cpp.o: CMakeFiles/Blocksworld.dir/flags.make
 CMakeFiles/Blocksworld.dir/Heirustic.cpp.o: ../Heirustic.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Blocksworld.dir/Heirustic.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Blocksworld.dir/Heirustic.cpp.o -c "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Blocksworld.dir/Heirustic.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Blocksworld.dir/Heirustic.cpp.o -c "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Heirustic.cpp"
 
 CMakeFiles/Blocksworld.dir/Heirustic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Blocksworld.dir/Heirustic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.cpp" > CMakeFiles/Blocksworld.dir/Heirustic.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Heirustic.cpp" > CMakeFiles/Blocksworld.dir/Heirustic.cpp.i
 
 CMakeFiles/Blocksworld.dir/Heirustic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Blocksworld.dir/Heirustic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.cpp" -o CMakeFiles/Blocksworld.dir/Heirustic.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Heirustic.cpp" -o CMakeFiles/Blocksworld.dir/Heirustic.cpp.s
 
 CMakeFiles/Blocksworld.dir/Heirustic.cpp.o.requires:
 
@@ -195,7 +195,7 @@ Blocksworld: CMakeFiles/Blocksworld.dir/AStar.cpp.o
 Blocksworld: CMakeFiles/Blocksworld.dir/Heirustic.cpp.o
 Blocksworld: CMakeFiles/Blocksworld.dir/build.make
 Blocksworld: CMakeFiles/Blocksworld.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Blocksworld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Blocksworld"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Blocksworld.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -216,6 +216,6 @@ CMakeFiles/Blocksworld.dir/clean:
 .PHONY : CMakeFiles/Blocksworld.dir/clean
 
 CMakeFiles/Blocksworld.dir/depend:
-	cd "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld" "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld" "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug" "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug" "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Blocksworld.dir/depend
 

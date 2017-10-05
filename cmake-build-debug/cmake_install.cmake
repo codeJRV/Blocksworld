@@ -1,4 +1,4 @@
-# Install script for directory: /home/jrv/MyStuff/Artificial Intelligence/Blocksworld
+# Install script for directory: /home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

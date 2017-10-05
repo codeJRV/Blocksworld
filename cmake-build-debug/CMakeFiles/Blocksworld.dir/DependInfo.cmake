@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.cpp" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/AStar.cpp.o"
-  "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.cpp" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/Heirustic.cpp.o"
-  "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.cpp" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/Node.cpp.o"
-  "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.cpp" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/Tree.cpp.o"
-  "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/main.cpp" "/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/main.cpp.o"
+  "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/AStar.cpp" "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/AStar.cpp.o"
+  "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Heirustic.cpp" "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/Heirustic.cpp.o"
+  "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.cpp" "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/Node.cpp.o"
+  "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Tree.cpp" "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/Tree.cpp.o"
+  "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/main.cpp" "/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

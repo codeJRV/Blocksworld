@@ -6,33 +6,33 @@
 
 #IncludeRegexTransform: 
 
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.cpp
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/AStar.cpp
 AStar.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/AStar.h
 
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/AStar.h
 Node.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.h
 Tree.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Tree.h
 Heirustic.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Heirustic.h
 queue
 -
 
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.cpp
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Heirustic.cpp
 Heirustic.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Heirustic.h
 
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Heirustic.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Heirustic.h
 Node.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.h
 
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.cpp
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.cpp
 Node.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.h
 
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.h
 vector
 -
 random
@@ -44,21 +44,21 @@ time.h
 algorithm
 -
 
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.cpp
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Tree.cpp
 Tree.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Tree.h
 Node.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.h
 
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Tree.h
 vector
 -
 iostream
 -
 Node.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.h
 
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/main.cpp
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/main.cpp
 iostream
 -
 fstream
@@ -80,9 +80,9 @@ algorithm
 map
 -
 Node.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Node.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Node.h
 Tree.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/Tree.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/Tree.h
 AStar.h
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/AStar.h
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/AStar.h
 

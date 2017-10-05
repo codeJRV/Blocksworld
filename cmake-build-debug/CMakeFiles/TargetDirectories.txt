@@ -1,3 +1,3 @@
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/jrv/MyStuff/Artificial Intelligence/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jrv/MyStuff/Artificial Intelligence/Pristine/Blocksworld/cmake-build-debug/CMakeFiles/Blocksworld.dir

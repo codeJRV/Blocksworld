@@ -41,6 +41,7 @@ int main(int argc, char** argv) {
     {
 
         int heuristic = 0;
+        int max_iteration = 0;
 
         cout << "Number of Blocks : ";
         cin>>n_blocks;
@@ -48,6 +49,8 @@ int main(int argc, char** argv) {
         cin>>n_stacks;
         cout << "Heuristic (0/1)  : ";
         cin>>heuristic;
+        cout << "Max Iterations  : ";
+        cin>>max_iteration;
 
         if(n_stacks == 1 || n_blocks == 0)
         {
@@ -64,9 +67,9 @@ int main(int argc, char** argv) {
         AStar Searcher;
 
         if(heuristic==1)
-        Searcher.AStarSearch(start,1);
+        Searcher.AStarSearch(start,1,max_iteration);
         else
-        Searcher.AStarSearch(start,0);
+        Searcher.AStarSearch(start,0,max_iteration);
 
     }
     else
